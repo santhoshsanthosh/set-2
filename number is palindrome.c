@@ -5,9 +5,7 @@ int main()
 
     printf("Enter an integer: ");
     scanf("%d", &n);
-
     originalInteger = n;
-
     // reversed integer is stored in variable 
     while( n!=0 )
     {
@@ -21,6 +19,5 @@ int main()
         printf("%d is a palindrome.", originalInteger);
     else
         printf("%d is not a palindrome.", originalInteger);
-    
-    return 0;
+         return0;
 }
